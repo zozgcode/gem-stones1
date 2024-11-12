@@ -5,10 +5,10 @@ export default function Header() {
   return (
     <header>
       {/* Top Header */}
-      <div className="bg-gray-800 text-white text-sm px-20 py-2">
+      <div className="bg-gray-800 text-white text-sm px-10 py-5">
         <div className="container mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <div className="flex items-center gap-1">
+          <div className="flex items-center flex-wrap sm:flex-nowrap gap-4">
+            <div className="flex items-center gap-1 w-full">
               <FaMapMarkerAlt />
               <span>336 Marble Falls St, Las Vegas, NV 89138</span>
             </div>

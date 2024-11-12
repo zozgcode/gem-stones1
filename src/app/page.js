@@ -14,8 +14,8 @@ export default function Home() {
           beauty, rarity, and durability.
         </span>
       </div>
-      <div className="mx-auto px-20 py-[50px] text-center w-[600px]">
-        <h3 className="text-lg">Products</h3>
+      <div className="mx-auto px-20 pt-[30px] pb-10 text-center w-[600px]">
+        <h3 className="text-4xl">Products</h3>
       </div>
       <Products />
     </div>

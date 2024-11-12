@@ -3,7 +3,7 @@ import { gemstones } from "./mockData";
 
 export default function Products() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-20 pt-0">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-10 pt-0">
       {gemstones.map((gemstone) => (
         <div
           key={gemstone.id}
@@ -14,7 +14,7 @@ export default function Products() {
             alt={gemstone.name}
             width={150}
             height={150}
-            className="w-full h-40 object-cover rounded"
+            className="w-full h-[200px] object-cover rounded"
           />
           {/* <h3 className="text-lg text-center mt-2">{gemstone.name}</h3> */}
           {/* <p className="text-gray-600">{gemstone.description}</p> */}

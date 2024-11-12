@@ -25,7 +25,7 @@ export default function Header() {
         <div className="container mx-auto flex items-center justify-center">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center flex-col gap-2 w-full">
+            <Link href="/" className="flex items-center flex-col w-full">
               <img
                 src="https://i.imgur.com/Dq05efQ.png"
                 alt="Gemstone Logo"

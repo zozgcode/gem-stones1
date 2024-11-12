@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Banner() {
   return (
     <div
-      className="relative bg-cover bg-center h-[500px] flex items-center justify-center text-white"
+      className="relative bg-cover bg-center h-[300px] sm:h-[500px] flex items-center justify-center text-white"
       style={{ backgroundImage: "url('https://i.imgur.com/5g5JjFU.png" }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
